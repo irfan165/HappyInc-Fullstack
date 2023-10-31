@@ -7,7 +7,7 @@ CORS(app)
 CORS(app, resources={r"/process_data": {"origins": "http://localhost:3000"}})
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 messages = []
 
